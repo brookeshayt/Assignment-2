@@ -18,6 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 80px;
 }
 
 /* .hero::before {
@@ -41,7 +42,17 @@ h1.Page-Title {
     /* isolation: isolate; */
 }
 
-a nav {
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+nav a {
     font-family: "Source Code Pro", monospace;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -51,20 +62,21 @@ a nav {
     color: rgb(0, 0, 0);
 
     text-decoration: none;
+    padding-right: 80px;
 }
 
-a nav:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
 section {
     position: absolute;
-    padding-top: 350px;
+    /* padding-top: 350px; */
     background-color: rgb(255, 255, 255);
 }
 
 h2 {
-    font-family: "Sour Gummy", sans-serif;
+    font-family: "Source Code Pro", monospace;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
@@ -87,7 +99,6 @@ p {
 
     border: 60px solid rgb(0, 0, 0);
     border-radius: 500px;
-    text-align: center;
     margin: auto;
     padding: 80px;
     width: 50%;
@@ -95,10 +106,11 @@ p {
 
 model-viewer {
    width: 100%;
-   height: 700px; 
+   height: 600px; 
 
+   margin: auto;
    position: absolute;
-   top: 200px;
+   top: 150px;
 }
 
 /* .flex-parent {
